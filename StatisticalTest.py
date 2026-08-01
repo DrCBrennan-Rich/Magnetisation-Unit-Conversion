@@ -5,7 +5,7 @@
 import numpy as np
 from scipy import stats
 
-def analyse_measurements(data, alpha=0.05):
+def Analyse_Measurements(data, alpha=0.05):
 
     data = np.asarray(data)
 
@@ -47,4 +47,4 @@ def analyse_measurements(data, alpha=0.05):
 
 Measurements = [17.70, 17.428, 17.982, 17.365, 17.937, 17.326, 17.847]
 
-results = analyse_measurements(Measurements)
+Results = Analyse_Measurements(Measurements)
