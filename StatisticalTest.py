@@ -45,6 +45,7 @@ def Analyse_Measurements(data, alpha=0.05):
         "normal": normal
     }
 
+#List of data points should be inserted here
 Measurements = [17.70, 17.428, 17.982, 17.365, 17.937, 17.326, 17.847]
 
 Results = Analyse_Measurements(Measurements)
